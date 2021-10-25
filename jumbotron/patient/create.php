@@ -4,16 +4,16 @@
 <!-- Custom styles for this template -->
 <link href="../../assets/css/jumbotron.css" rel="stylesheet">
 
-<?php include('../../includes/header.php'); ?>
-<?php include('../../includes/navbar.php'); ?>
-
-
 <main role="main">
+<?php include('../../includes/header.php'); ?>
+<div class="container">
+<?php include('../../includes/navbar.php'); ?>
+<br>
+
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
-    <div class="container">
-     <h1 style="border-bottom:1px solid gray;">Add Patient</h1>
+     <h3 style="border-bottom:1px solid gray;">Add Patient</h3>
     
      <div class="card mb-3 col-md-12">
         <div class="card-body col-md-12">
@@ -75,7 +75,7 @@
                    </div>
                    <div class="col-md-4 ml-4">
                         <div class="form-group">
-                             <label class="mb-1">Antigen</label><br>
+                             <label class="mb-1">Action</label><br>
                              <input type="submit" name="submit" class="btn btn-primary" value="Submit">
                              <a href="index.php" class="btn btn-secondary">Cancel</a>
                         </div>

@@ -8,4 +8,4 @@
     <meta name="generator" content="Hugo 0.80.0">
     <title>PanMed Swab System</title>
   </head>
-  <body>
+  <body style="background-color: lightgray;">

@@ -4,15 +4,13 @@
 <!-- Custom styles for this template -->
 <link href="../../assets/css/jumbotron.css" rel="stylesheet">
 
-<?php include('../../includes/header.php'); ?>
-<?php include('../../includes/navbar.php'); ?>
-
-
 <main role="main">
-
+  <?php include('../../includes/header.php'); ?>
+<div class="container">
+  <?php include('../../includes/navbar.php'); ?>
+<br>  
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
-    <div class="container">
      <h1 style="border-bottom:1px solid gray;">Patient Information</h1>
      <a href="create.php" class="btn btn-primary btn-sm mb-2"><span data-feather="plus"></span> Add New Patient</a>
      <a href="export.php" class="btn btn-primary pull-right btn-sm mb-2" style="float:right;"><span class="glyphicon glyphicon-export"></span> Export As PDF</a>     

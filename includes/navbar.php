@@ -11,10 +11,10 @@
         <a class="nav-link" href="../patient/" style="font-size:20px;">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" style="font-size:20px;">Specimen</a>
+        <a class="nav-link" href="../specimen/" style="font-size:20px;">Specimen</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" style="font-size:20px;">Antigen</a>
+        <a class="nav-link" href="../antigen/" style="font-size:20px;">Antigen</a>
       </li>
     </ul>
   </div>
